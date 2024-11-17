@@ -1,6 +1,7 @@
 import {Menu, X} from "lucide-react";
 import {useState} from "react"
 import logo from "../assets/logo.png";
+import linkedInIcon from "../assets/icons8-linkedin-240.svg";
 import { navItems } from "../constants";
 
 const Navbar = () => {
@@ -25,14 +26,12 @@ const Navbar = () => {
             ))}
           </ul>
           <div className="hidden lg:flex justify-center space-x-12 items-center">
-            <a href="#" className="py-2 px-3 border rounded-md">
-              LinkedIn
-            </a>
             <a
-              href="#"
-              className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md"
+              href="https://www.linkedin.com/in/carlostolvett/"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Instagram
+              <img src={linkedInIcon} alt="LinkedIn" className="w-10 h-10" />
             </a>
           </div>
           <div className="lg:hidden md:flex flex-col justify-end">
@@ -51,13 +50,13 @@ const Navbar = () => {
               ))}
             </ul>
             <div className="flex space-x-6">
-              <a href="#" className="py-2 px-3 border rounded-md">
-                LinkedIn
+              <a
+                href="https://www.linkedin.com/in/carlostolvett/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={linkedInIcon} alt="LinkedIn" className="w-10 h-10" />
               </a>
-              <a href="#" className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md">
-                Instagram
-              </a>
-              
             </div>
           </div>
         )}
