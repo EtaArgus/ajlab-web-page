@@ -12,6 +12,11 @@ import user4 from "../assets/profile-pictures/user4.jpg";
 import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
+import carlostolvett from "../assets/team-pictures/carlostolvett.jpg";
+import israelosorio from "../assets/team-pictures/israelosorio.jpg";
+import gregoryschuit from "../assets/team-pictures/gregoryschuit.jpg";
+import cristobaltorres from "../assets/team-pictures/cristobaltorres.jfif";
+
 export const navItems = [
   { label: "Servicios", href: "#" },
   { label: "Equipo", href: "#" },
@@ -96,6 +101,34 @@ export const servicios = [
       "Construimos y gestionamos arquitecturas escalables para la integración, limpieza y procesamiento eficiente de datos.",
   },
 ];
+
+export const team = [
+  {
+    imagen: carlostolvett,
+    nombre: "Carlos Tolvett",
+    cargo:
+      "Ingeniero Analytics",
+  },
+  {
+    imagen: israelosorio,
+    nombre: "Israel Osorio",
+    cargo:
+      "Ingeniero Analytics",
+  },
+  {
+    imagen: gregoryschuit,
+    nombre: "Gregory Schuit",
+    cargo:
+      "Ingeniero IA",
+  },
+  {
+    imagen: cristobaltorres,
+    nombre: "Cristobal Torres",
+    cargo:
+      "Ingeniero ML",
+  },
+];
+
 
 export const checklistItems = [
   {
