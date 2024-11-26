@@ -1,9 +1,9 @@
-import { BotMessageSquare } from "lucide-react";
-import { BatteryCharging } from "lucide-react";
-import { Fingerprint } from "lucide-react";
-import { ShieldHalf } from "lucide-react";
-import { PlugZap } from "lucide-react";
-import { GlobeLock } from "lucide-react";
+import { BarChart } from "lucide-react";
+import { Sparkles } from "lucide-react";
+import { BrainCircuit  } from "lucide-react";
+import { Cpu  } from "lucide-react";
+import { LineChart  } from "lucide-react";
+import { Database  } from "lucide-react";
 
 import user1 from "../assets/profile-pictures/user1.jpg";
 import user2 from "../assets/profile-pictures/user2.jpg";
@@ -58,42 +58,42 @@ export const testimonials = [
   },
 ];
 
-export const features = [
+export const servicios = [
   {
-    icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    icon: <BarChart />,
+    text: "Business Intelligence",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "Transformamos datos en información procesable a través de dashboards interactivos, reportes automatizados y análisis descriptivo para la toma de decisiones estratégicas.",
   },
   {
-    icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    icon: <Sparkles />,
+    text: "IA Generativa",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "Implementamos soluciones basadas en inteligencia artificial generativa para la creación de contenido automatizado, modelos de lenguaje avanzado y simulaciones personalizadas.",
   },
   {
-    icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    icon: <BrainCircuit />,
+    text: "Deep Learning",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "Desarrollamos modelos de redes neuronales profundas para resolver problemas complejos, como reconocimiento de imágenes, procesamiento de lenguaje natural y sistemas avanzados de predicción.",
   },
   {
-    icon: <BatteryCharging />,
-    text: "Real-Time Preview",
+    icon: <Cpu />,
+    text: "Machine Learning",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "Diseñamos e implementamos algoritmos de aprendizaje automático para automatizar procesos, predecir comportamientos y optimizar operaciones.",
   },
   {
-    icon: <PlugZap />,
-    text: "Collaboration Tools",
+    icon: <LineChart />,
+    text: "Analítica Avanzada",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+      "Aplicamos técnicas estadísticas y modelos matemáticos para descubrir patrones, analizar tendencias y generar insights accionables.",
   },
   {
-    icon: <GlobeLock />,
-    text: "Analytics Dashboard",
+    icon: <Database />,
+    text: "Ingeniería de Datos",
     description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+      "Construimos y gestionamos arquitecturas escalables para la integración, limpieza y procesamiento eficiente de datos.",
   },
 ];
 
