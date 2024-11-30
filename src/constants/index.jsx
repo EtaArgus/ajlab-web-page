@@ -20,7 +20,6 @@ import cristobaltorres from "../assets/team-pictures/cristobaltorres.jfif";
 export const navItems = [
   { label: "Servicios", href: "#" },
   { label: "Equipo", href: "#" },
-  { label: "Testimonios", href: "#" },
   { label: "Contacto", href: "#" },
 ];
 
