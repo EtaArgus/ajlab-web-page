@@ -2,7 +2,7 @@ import { team } from "../constants";
 
 const TeamSection = () => {
   return (
-    <div className="relative mt-20 border-b border-neutral-800 min-h-[800px]">
+    <div className="relative mt-20 min-h-[800px]">
       <div className="div text-center">
         <span className="bg-neutral-900 text-orange-500 rounded-full h-6 text-sm font-medium px-2 py-1 uppercase">
           Equipo
@@ -27,7 +27,7 @@ const TeamSection = () => {
               />
             </div>
             {/* Nombre */}
-            <h5 className="mt-1 mb-0 text-xl">{miembro.nombre}</h5>
+            <h5 className="mt-1 text-xl">{miembro.nombre}</h5>
             {/* Cargo */}
             <p className="text-md p-1 mb-5 text-neutral-500">{miembro.cargo}</p>
           </div>
