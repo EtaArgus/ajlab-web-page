@@ -1,7 +1,8 @@
-import ServiciosSection from "./components/ServiciosSection"
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
+import ServiciosSection from "./components/ServiciosSection";
 import TeamSection from "./components/TeamSection";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
         <HeroSection />
         <ServiciosSection />
         <TeamSection />
+        <Footer />
       </div>
     </>
   );
