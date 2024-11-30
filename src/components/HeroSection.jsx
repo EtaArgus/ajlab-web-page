@@ -5,14 +5,14 @@ const HeroSection = () => {
     return (
       <div className="flex flex-col items-center mt-6 lg:mt-20">
         <h1 className="text-4xl sm text-6xl lg:text-7xl text-center tracking-wide">
-          Eso ya
+          Cuéntanos tu
           <span className="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
             {" "}
-            está hecho bro
+           problema de negocio
           </span>
         </h1>
         <p className="mt-10 text-lg text-center text-neutral-500 max-w-4xl">
-          Lo contrario al amor no es el odio, si no la indiferencia{" "}
+          Y diseñaremos una solución integrando data, tecnología cloud y matemáticas{" "}
         </p>
         <div className="flex justify-center my-10">
           <a
