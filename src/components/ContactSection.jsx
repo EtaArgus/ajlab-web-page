@@ -1,6 +1,6 @@
 const ContactSection = () => {
     return (
-      <div className="relative mt-20 min-h-[800px]">
+      <div id="contacto" className="relative mt-20 min-h-[800px]">
         {/* Título de la sección */}
         <div className="text-center">
           <span className="bg-neutral-900 text-orange-500 rounded-full h-6 text-sm font-medium px-2 py-1 uppercase">

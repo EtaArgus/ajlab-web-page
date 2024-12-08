@@ -1,5 +1,6 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import { Link } from "react-scroll";
 import linkedInIcon from "../assets/icons8-linkedin-240.svg";
 import logo from "../assets/logo.png";
 import { navItems } from "../constants";
@@ -21,12 +22,12 @@ const Navbar = () => {
           <ul className="hidden lg:flex ml-14 space-x-12">
             {navItems.map((item, index) => (
               <li key={index}>
-                <a
-                  href={item.href}
-                  className="underline decoration-transparent hover:decoration-orange-500 transition duration-200"
+                <Link
+                  to={item.to}
+                  className="cursor-pointer underline decoration-transparent hover:decoration-orange-500 transition duration-200"
                 >
                   {item.label}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
@@ -50,12 +51,12 @@ const Navbar = () => {
             <ul>
               {navItems.map((item, index) => (
                 <li key={index} className="py-4">
-                  <a
-                    href={item.href}
-                    className="underline decoration-transparent hover:decoration-orange-500 transition duration-200"
+                  <Link
+                    to={item.to}
+                    className="cursor-pointer underline decoration-transparent hover:decoration-orange-500 transition duration-200"
                   >
                     {item.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>

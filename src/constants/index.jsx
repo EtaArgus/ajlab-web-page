@@ -18,9 +18,9 @@ import gregoryschuit from "../assets/team-pictures/gregoryschuit.jfif";
 import cristobaltorres from "../assets/team-pictures/cristobaltorres.jfif";
 
 export const navItems = [
-  { label: "Servicios", href: "#" },
-  { label: "Equipo", href: "#" },
-  { label: "Contacto", href: "#" },
+  { label: "Servicios", to: "servicios" },
+  { label: "Equipo", to: "equipo" },
+  { label: "Contacto", to: "contacto" },
 ];
 
 export const testimonials = [

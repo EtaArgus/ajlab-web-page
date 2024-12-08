@@ -2,7 +2,7 @@ import { team } from "../constants";
 
 const TeamSection = () => {
   return (
-    <div className="relative border-b border-neutral-800 mt-20 min-h-[600px]">
+    <div id="equipo" className="relative border-b border-neutral-800 mt-20 min-h-[600px]">
       <div className="div text-center">
         <span className="bg-neutral-900 text-orange-500 rounded-full h-6 text-sm font-medium px-2 py-1 uppercase">
           Equipo
