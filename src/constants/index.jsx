@@ -12,7 +12,7 @@ import user4 from "../assets/profile-pictures/user4.jpg";
 import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
-import carlostolvett from "../assets/team-pictures/carlostolvett.jfif";
+import carlostolvett from "../assets/team-pictures/carlostolvett.jpeg";
 import israelosorio from "../assets/team-pictures/israelosorio.jpeg";
 import gregoryschuit from "../assets/team-pictures/gregoryschuit.jfif";
 import cristobaltorres from "../assets/team-pictures/cristobaltorres.jfif";
